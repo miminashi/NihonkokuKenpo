@@ -44,11 +44,11 @@ Git
 
 　これで、masterに、dev-YOURNAME-Kenpoで作った内容が反映されます。このような形で、自分の日本国憲法に書き直していきましょう。
 
-Pull Request
-------------
+Pull Requestの方針について
+--------------------------
 
 　Masterに対する、Pull Requestに関しては、`usr/YOURNAME/` のみに変更があった場合に、Mergeされます。
 
 　Master branchにおいて、srcは、記法及び表現において修正が認められるさいにおいてのみ、変更が行われます。srcを弄るような作りは想定していません。
 
-　しかし、GitらしくBranchを作りたい人たちに関しては、`src`が変更になったさいには、それらを新しいBranchを作り、そこにMargeします。
+　しかし、GitらしくBranchを作りたい人たちに関しては、それらを保管する新しいBranchを作り、そこにMargeします。
